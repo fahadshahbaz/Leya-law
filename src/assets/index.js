@@ -7,8 +7,11 @@ import circle from "./circle.svg";
 import borenius from "./borenius.svg";
 import birdbird from "./birdbird.svg";
 import videooverlay from "./videooverlay.svg";
-import turnitinto from "./turnitinto.svg";
 import rightfancyarrow from "./rightfancyarrow.svg";
+import perezliorca from "./perezliorca.svg";
+import aozrueda from "./aozrueda.svg";
+import swart from "./swart.png";
+import mannheimer from "./mannheimer.svg";
 
 export {
   leyanav,
@@ -20,6 +23,9 @@ export {
   borenius,
   birdbird,
   videooverlay,
-  turnitinto,
-  rightfancyarrow
+  rightfancyarrow,
+  perezliorca,
+  aozrueda,
+  swart,
+  mannheimer
 };
