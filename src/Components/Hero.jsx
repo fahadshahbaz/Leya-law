@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import myVideo from "../assets/video/Leyaherosection.mp4";
+import myVideo from "/Leyaherosection.mp4";
 import { rightfancyarrow, perezliorca, aozrueda, birdbird, swart, mannheimer } from "../assets/";
 
 const Hero = () => {
