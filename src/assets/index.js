@@ -12,6 +12,9 @@ import perezliorca from "./perezliorca.svg";
 import aozrueda from "./aozrueda.svg";
 import swart from "./swart.png";
 import mannheimer from "./mannheimer.svg";
+import info from "./info.svg";
+import source from "./source.svg";
+import endless from "./endless.svg";
 
 export {
   leyanav,
@@ -27,5 +30,8 @@ export {
   perezliorca,
   aozrueda,
   swart,
-  mannheimer
+  mannheimer,
+  info,
+  source,
+  endless
 };
