@@ -23,7 +23,7 @@ const OpenPositions = () => {
         <div className="text-center">
           <h1 className="text-4xl font-bold text-white mb-8">Open Positions</h1>
           <p className="text-white mb-12">Join our team in rethinking legal work.</p>
-          <a className='bg-white px-5 py-3 rounded-lg'>Explore roles</a>
+          <a className='bg-white px-5 py-3 rounded-lg cursor-pointer'>Explore roles</a>
         </div>
       </div>
     </section>

@@ -26,6 +26,9 @@ import socicon from "./socicon.webp";
 import firstopen from "./firstopen.jpeg";
 import secondopen from "./secondopen.jpeg";
 import thirdopen from "./thirdopen.jpeg";
+import leyafooter from "./leyafooter.svg";
+import linkedin from "./linkedin.svg";
+import ycombinator from "./ycombinator.svg";
 
 export {
   leyanav,
@@ -55,5 +58,8 @@ export {
   socicon,
   firstopen,
   secondopen,
-  thirdopen
+  thirdopen,
+  leyafooter,
+  linkedin,
+  ycombinator
 };

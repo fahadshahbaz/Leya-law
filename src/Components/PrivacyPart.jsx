@@ -16,7 +16,7 @@ const Privacypart = () => {
         </p>
         <a
           href="#"
-          className="p-3 shadow-md text-center rounded-lg border border-gray-300 w-32"
+          className="p-3 shadow-md text-center rounded-lg border border-gray-300 w-32 cursor-pointer"
         >
           Read more
         </a>
