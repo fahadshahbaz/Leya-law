@@ -23,6 +23,9 @@ import unlock from "./unlock.svg";
 import gdpricon from "./gdpricon.webp";
 import isoicon from "./isoicon.webp";
 import socicon from "./socicon.webp";
+import firstopen from "./firstopen.jpeg";
+import secondopen from "./secondopen.jpeg";
+import thirdopen from "./thirdopen.jpeg";
 
 export {
   leyanav,
@@ -49,5 +52,8 @@ export {
   unlock,
   gdpricon,
   isoicon,
-  socicon
+  socicon,
+  firstopen,
+  secondopen,
+  thirdopen
 };
