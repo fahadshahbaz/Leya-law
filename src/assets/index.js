@@ -15,6 +15,14 @@ import mannheimer from "./mannheimer.svg";
 import info from "./info.svg";
 import source from "./source.svg";
 import endless from "./endless.svg";
+import managing from "./managing.jpeg";
+import partner from "./partner.jpeg";
+import pedropartner from "./pedropartner.jpeg";
+import boardteam from "./boardteam.jpeg";
+import unlock from "./unlock.svg";
+import gdpricon from "./gdpricon.webp";
+import isoicon from "./isoicon.webp";
+import socicon from "./socicon.webp";
 
 export {
   leyanav,
@@ -33,5 +41,13 @@ export {
   mannheimer,
   info,
   source,
-  endless
+  endless,
+  managing,
+  partner,
+  pedropartner,
+  boardteam,
+  unlock,
+  gdpricon,
+  isoicon,
+  socicon
 };
