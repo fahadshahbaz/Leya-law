@@ -42,7 +42,7 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile menu */}
-      {isOpen && (
+      {/* {isOpen && (
         <div className="fixed inset-0 bg-white z-50 flex flex-col filter backdrop-blur-2xl">
           <div className="flex justify-between items-center w-full p-4 my-5">
             <div className="absolute right-4 top-[0.4rem] cursor-pointer m-5 bg-black rounded-md p-2">
@@ -69,7 +69,40 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-      )}
+      )} */}
+      {isOpen && (
+  <div
+    className={`fixed inset-0 bg-white/85 z-50 flex flex-col filter backdrop-blur-md transition-transform duration-300 ease-in-out transform ${
+      isOpen ? 'translate-x-0' : 'translate-x-full'
+    }`}
+  >
+    <div className="flex justify-between items-center w-full p-4 my-5">
+      <div className="absolute right-4 top-[0.4rem] cursor-pointer m-5 bg-black rounded-md p-2">
+        <img
+          onClick={toggleMobileMenu}
+          src={crossblack}
+          alt="Close menu"
+          className="cursor-pointer size-5 filter invert"
+        />
+      </div>
+    </div>
+    <ul className="flex flex-col items-center gap-6 text-2xl mx-5 font-medium">
+      {navItems.map((item, index) => (
+        <li
+          key={index}
+          className={`w-full p-4 ${
+            item === "Login"
+              ? "cursor-pointer bg-black text-center py-[0.4rem] text-white rounded-md uppercase tracking-wide"
+              : "cursor-pointer border-b border-gray-300"
+          }`}
+        >
+          {item}
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
+
     </>
   );
 };
