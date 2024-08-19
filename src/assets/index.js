@@ -3,6 +3,7 @@ import tickbox from "./tickbox.svg";
 import uparrow from "./uparrow.svg";
 import stack from "./stack.svg";
 import cross from "./cross.svg";
+import crossblack from "./crossblack.svg";
 import circle from "./circle.svg";
 import borenius from "./borenius.svg";
 import birdbird from "./birdbird.svg";
@@ -29,6 +30,7 @@ import thirdopen from "./thirdopen.jpeg";
 import leyafooter from "./leyafooter.svg";
 import linkedin from "./linkedin.svg";
 import ycombinator from "./ycombinator.svg";
+import bars from "./bars.svg";
 
 export {
   leyanav,
@@ -61,5 +63,7 @@ export {
   thirdopen,
   leyafooter,
   linkedin,
-  ycombinator
+  ycombinator,
+  bars,
+  crossblack
 };
