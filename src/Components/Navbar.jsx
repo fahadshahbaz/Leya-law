@@ -20,8 +20,8 @@ const Navbar = () => {
                 key={index}
                 className={
                   item === "Login"
-                    ? "bg-black px-[1rem] py-[0.4rem] text-white rounded-lg uppercase tracking-wide"
-                    : ""
+                    ? "bg-black px-[1rem] py-[0.4rem] text-white rounded-lg uppercase tracking-wide cursor-pointer"
+                    : "cursor-pointer"
                 }
               >
                 {item}
@@ -42,67 +42,40 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile menu */}
-      {/* {isOpen && (
-        <div className="fixed inset-0 bg-white z-50 flex flex-col filter backdrop-blur-2xl">
-          <div className="flex justify-between items-center w-full p-4 my-5">
-            <div className="absolute right-4 top-[0.4rem] cursor-pointer m-5 bg-black rounded-md p-2">
-              <img
-                onClick={toggleMobileMenu}
-                src={crossblack}
-                alt="Close menu"
-                className="cursor-pointer size-5 filter invert"
-              />
-            </div>
+
+      <div
+        className={`fixed inset-0 bg-white/85 z-50 flex flex-col filter backdrop-blur-md transition-opacity duration-300 ease-linear transform ${
+          isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
+        }`}
+      >
+        <div className="flex justify-between items-center w-full p-4 my-5">
+          <div className="absolute right-4 top-[0.4rem] cursor-pointer m-5 bg-black rounded-md p-2">
+            <img
+              onClick={toggleMobileMenu}
+              src={crossblack}
+              alt="Close menu"
+              className="cursor-pointer size-5 filter invert"
+            />
           </div>
-          <ul className="flex flex-col items-center gap-6 text-xl mx-5 font-medium">
-            {navItems.map((item, index) => (
-              <li
-                key={index}
-                className={
+        </div>
+        <ul className="flex flex-col items-center gap-6 text-2xl mx-5 font-medium">
+          {navItems.map((item, index) => (
+            <li key={index} className="w-full p-4">
+              <a
+                href={`#${item.toLowerCase()}`}
+                onClick={toggleMobileMenu}
+                className={`block ${
                   item === "Login"
-                    ? " cursor-pointer bg-black text-center w-full py-[0.4rem] text-white rounded-md uppercase tracking-wide"
-                    : "cursor-pointer w-full p-4"
-                }
+                    ? "cursor-pointer bg-black text-center py-[0.4rem] text-white rounded-md uppercase tracking-wide"
+                    : "cursor-pointer border-b border-gray-300"
+                }`}
               >
                 {item}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )} */}
-      {isOpen && (
-  <div
-    className={`fixed inset-0 bg-white/85 z-50 flex flex-col filter backdrop-blur-md transition-transform duration-300 ease-in-out transform ${
-      isOpen ? 'translate-x-0' : 'translate-x-full'
-    }`}
-  >
-    <div className="flex justify-between items-center w-full p-4 my-5">
-      <div className="absolute right-4 top-[0.4rem] cursor-pointer m-5 bg-black rounded-md p-2">
-        <img
-          onClick={toggleMobileMenu}
-          src={crossblack}
-          alt="Close menu"
-          className="cursor-pointer size-5 filter invert"
-        />
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
-    </div>
-    <ul className="flex flex-col items-center gap-6 text-2xl mx-5 font-medium">
-      {navItems.map((item, index) => (
-        <li
-          key={index}
-          className={`w-full p-4 ${
-            item === "Login"
-              ? "cursor-pointer bg-black text-center py-[0.4rem] text-white rounded-md uppercase tracking-wide"
-              : "cursor-pointer border-b border-gray-300"
-          }`}
-        >
-          {item}
-        </li>
-      ))}
-    </ul>
-  </div>
-)}
-
     </>
   );
 };
