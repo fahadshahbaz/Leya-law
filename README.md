@@ -55,11 +55,12 @@ Ensure that you have **Node.js** and **npm** installed on your machine.
    ```bash
    npm i
    ```
-   ---
+
+---
 ## ▶️ Running the Project
   ```bash
   npm run dev
-```
+  ```
 ---
 ## 🌍 Demo
 You can view the live demo of Leya here:
