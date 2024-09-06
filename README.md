@@ -4,7 +4,6 @@
 
 **Leya** is a sleek and minimal single-page application built with **React JS**, designed to serve as a practical example for developing responsive and efficient web applications. It emphasizes clean design, a user-friendly interface, and optimized performance, making it an ideal resource for practicing modern web development skills.
 
----
 
 ## ✨ Key Features
 
@@ -12,7 +11,6 @@
 - 📱 **Responsive Layout**: Ensures seamless adaptation to various devices and screen sizes, providing accessibility across phones, tablets, and desktops.
 - ⚡ **Efficient Performance**: Powered by React JS to deliver fast, smooth, and dynamic interactions.
 
----
 
 ## 🛠️ Technologies Used
 
@@ -21,7 +19,6 @@
 - 📄 **HTML5 & CSS3**: The core web technologies for structuring and styling the application.
 - 🖥️ **JavaScript (ES6+)**: Modern JavaScript syntax for functionality and interactivity.
 
----
 
 ## 🎯 Purpose
 
@@ -31,7 +28,6 @@ Leya is a resource for developers aiming to:
 - 🔄 Practice **single-page application (SPA)** architecture using React.
 - 💡 Explore the benefits of clean, **minimal UI/UX** design principles.
 
----
 
 ## 🚀 Getting Started
 
@@ -56,18 +52,15 @@ Ensure that you have **Node.js** and **npm** installed on your machine.
    npm i
    ```
 
----
 ## ▶️ Running the Project
   ```bash
   npm run dev
   ```
----
 ## 🌍 Demo
 You can view the live demo of Leya here:
 
 🔗 [Website Demo](https://leya.vercel.app/)
 
----
 
 ## 🎉 Happy Coding!
 
