@@ -7,7 +7,7 @@ const Hero = () => {
 
   return (
     <section className="flex flex-col justify-center items-center py-10">
-      <p className="bg-gray-100 p-2 rounded-full">
+      <p className="bg-gray-100 text-sm px-3 py-2 rounded-full">
         Blog Announcing $25m in Series A
       </p>
       <h1 className="hero-heading font-medium text-center py-4 tracking-wide">
@@ -16,7 +16,7 @@ const Hero = () => {
       <p className="text-sm sm:text-base text-gray-700 pb-5 text-center">
         And you need unparalleled tools to perfect every <br className="sm:hidden"/> detail.
       </p>
-      <a href="" className="bg-black p-2 px-6 py-2 rounded-md text-white">
+      <a className="bg-black p-2 px-6 py-2 rounded-md text-white cursor-pointer">
         Book a demo
       </a>
       <div className="relative w-[85%] sm:w-9/12 rounded-lg overflow-hidden sm:h-72 mt-8">

@@ -5,7 +5,7 @@ const Testimonial = () => {
   return (
     <>
       <div className="parent mx-auto !mt-32">
-        <h3>Testimonials</h3>
+        {/* <h3>Testimonials</h3> */}
         {/* Div 1 in the grid */}
         <div className="div1 bg-[#F9FAFB] rounded-md overflow-hidden w-full">
           <img
