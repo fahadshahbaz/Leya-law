@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { leyanav, bars, crossblack } from "../assets/";
+import { leyanav, bars, crossblack } from "../assets";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

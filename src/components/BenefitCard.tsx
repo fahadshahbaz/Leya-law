@@ -1,7 +1,12 @@
-import { unlock } from "../assets/";
+import { unlock } from "../assets";
+
+type BenefitCardProps = {
+  title: string;
+  description: string;
+};
 
 // Simple presentational card for a single benefit
-export default function BenefitCard({ title, description }) {
+export default function BenefitCard({ title, description }: BenefitCardProps) {
   return (
     <div className="flex flex-col justify-start p-8 bg-[#e4e4e47a] backdrop-blur-md w-full md:w-[22rem] min-h-[240px] max-h-[240px] rounded-lg border border-transparent shadow-lg overflow-hidden">
       <img src={unlock} alt="unlock" className="w-10 h-10 mb-4 flex-shrink-0" />

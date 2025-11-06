@@ -1,6 +1,7 @@
 import BenefitCard from "./BenefitCard";
 
-const benefitItems = [
+type BenefitItem = { title: string; description: string };
+const benefitItems: BenefitItem[] = [
   {
     title: "Unlocked Knowledge",
     description:

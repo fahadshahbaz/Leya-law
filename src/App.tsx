@@ -9,7 +9,7 @@ import {
   PlainText,
   PrivacyPart,
   Testimonial,
-} from "./Components";
+} from "./components";
 
 function App() {
   return (

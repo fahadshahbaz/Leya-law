@@ -1,4 +1,4 @@
-import { leyafooter, ycombinator } from "../assets/";
+import { leyafooter, ycombinator } from "../assets";
 
 export default function Footer() {
   return (

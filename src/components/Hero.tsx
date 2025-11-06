@@ -1,6 +1,6 @@
 import { useState } from "react";
 import myVideo from "/Leyaherosection.mp4";
-import { rightfancyarrow, perezliorca, aozrueda, birdbird, swart, mannheimer } from "../assets/";
+import { rightfancyarrow, perezliorca, aozrueda, birdbird, swart, mannheimer } from "../assets";
 
 export default function Hero() {
   const [videoLoaded, setVideoLoaded] = useState(false);

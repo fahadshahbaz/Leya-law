@@ -1,6 +1,8 @@
 import { boardteam, partner, pedropartner } from "../assets";
 
-const Testimonial = () => {
+type Person = { name: string; title: string; img: string };
+
+export default function Testimonial() {
   return (
     <>
       <div className="parent mx-auto !mt-32">
@@ -27,19 +29,25 @@ const Testimonial = () => {
         </div>
 
         {/* Div 3, 4, 5 in the grid */}
-        {[
-          {
-            name: "Samuli Simojoki",
-            title: "Chair of the Board, Borenius",
-            img: boardteam,
-          },
-          { name: "Andy Ramos", title: "Partner, Pérez-Llorca", img: partner },
-          {
-            name: "Pedro Rueda",
-            title: "Partner, Araoz & Rueda",
-            img: pedropartner,
-          },
-        ].map((person, index) => (
+        {(
+          [
+            {
+              name: "Samuli Simojoki",
+              title: "Chair of the Board, Borenius",
+              img: boardteam,
+            },
+            {
+              name: "Andy Ramos",
+              title: "Partner, Pérez-Llorca",
+              img: partner,
+            },
+            {
+              name: "Pedro Rueda",
+              title: "Partner, Araoz & Rueda",
+              img: pedropartner,
+            },
+          ] as Person[]
+        ).map((person, index) => (
           <div
             key={index}
             className={`div${
@@ -70,6 +78,4 @@ const Testimonial = () => {
       </div>
     </>
   );
-};
-
-export default Testimonial;
+}

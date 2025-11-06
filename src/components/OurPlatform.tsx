@@ -1,5 +1,5 @@
 import futurework from "/futurework.mp4";
-import { info, source, endless } from "../assets/";
+import { info, source, endless } from "../assets";
 
 export default function OurPlatform() {
   return (

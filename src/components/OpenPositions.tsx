@@ -1,4 +1,4 @@
-import { firstopen, secondopen, thirdopen } from "../assets/";
+import { firstopen, secondopen, thirdopen } from "../assets";
 
 export default function OpenPositions() {
   return (
