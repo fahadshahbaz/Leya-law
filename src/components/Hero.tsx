@@ -36,8 +36,8 @@ export default function Hero() {
           }`}
           onLoadedData={() => setVideoLoaded(true)}
         />
-        <div className="absolute inset-0 flex items-center justify-center gap-6">
-          <span className="text-black p-1 text-sm sm:text-base bg-[#f0ffff72] py-2 sm:p-3 rounded-lg">
+        <div className="hidden absolute inset-0 sm:flex items-center justify-center gap-6">
+          <span className="text-black p-1 text-xs sm:text-base bg-[#f0ffff72] py-2 sm:p-3 rounded-lg">
             Check <span className="hidden sm:inline-block">these</span> documents for GDPR compliance
             <img
               src={rightfancyarrow}

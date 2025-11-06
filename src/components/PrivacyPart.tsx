@@ -3,7 +3,7 @@ import { isoicon, gdpricon, socicon } from "../assets";
 
 export default function PrivacyPart() {
   return (
-    <section className="w-9/12 flex flex-wrap justify-around items-start mx-auto mt-32 gap-6">
+    <section className="w-9/12 flex flex-wrap justify-between items-start mx-auto mt-32 gap-6">
       <div className="flex flex-col gap-5 lg:w-[40%] p-3">
         <p className="text-sm">Bank level security</p>
         <h1 className="text-4xl sm:text-5xl font-medium">
