@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { leyanav, bars, crossblack } from "../assets/";
 
-const Navbar = () => {
+export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMobileMenu = () => {
     setIsOpen(!isOpen);
@@ -78,6 +78,4 @@ const Navbar = () => {
       </div>
     </>
   );
-};
-
-export default Navbar;
+}

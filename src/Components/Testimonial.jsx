@@ -1,5 +1,4 @@
-import React from "react";
-import { managing, boardteam, partner, pedropartner } from "../assets";
+import { boardteam, partner, pedropartner } from "../assets";
 
 const Testimonial = () => {
   return (

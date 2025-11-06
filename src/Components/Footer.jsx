@@ -1,7 +1,6 @@
-import React from "react";
-import { leyafooter, linkedin, ycombinator } from "../assets/";
+import { leyafooter, ycombinator } from "../assets/";
 
-const Footer = () => {
+export default function Footer() {
   return (
     <footer className="w-full px-20 p-7">
       <div className="flex flex-col md:flex-row items-start sm:justify-between sm:items-center">
@@ -36,4 +35,3 @@ const Footer = () => {
   );
 };
 
-export default Footer;

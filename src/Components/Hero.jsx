@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import myVideo from "/Leyaherosection.mp4";
 import { rightfancyarrow, perezliorca, aozrueda, birdbird, swart, mannheimer } from "../assets/";
 
-const Hero = () => {
+export default function Hero() {
   const [videoLoaded, setVideoLoaded] = useState(false);
 
   return (
@@ -58,4 +58,3 @@ const Hero = () => {
   );
 };
 
-export default Hero;

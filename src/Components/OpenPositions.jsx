@@ -1,7 +1,6 @@
-import React from "react";
 import { firstopen, secondopen, thirdopen } from "../assets/";
 
-const OpenPositions = () => {
+export default function OpenPositions() {
   return (
     <section className="relative mt-32">
       <div>
@@ -36,6 +35,4 @@ const OpenPositions = () => {
       </div>
     </section>
   );
-};
-
-export default OpenPositions;
+}

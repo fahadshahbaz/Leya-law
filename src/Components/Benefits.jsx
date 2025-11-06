@@ -18,7 +18,7 @@ const benefitItems = [
   },
 ];
 
-const Benefits = () => {
+export default function Benefits() {
   return (
     <section
       id="benefits"
@@ -43,6 +43,4 @@ const Benefits = () => {
       </div>
     </section>
   );
-};
-
-export default Benefits;
+}
