@@ -4,6 +4,7 @@ import PlainText from "./PlainText";
 import OurPlatform from "./OurPlatform";
 import Testimonial from "./Testimonial";
 import Benefits from "./Benefits";
+import BenefitCard from "./BenefitCard";
 import PrivacyPart from "./PrivacyPart";
 import OpenPositions from "./OpenPositions";
 import CallToAction from "./CallToAction";
@@ -16,6 +17,7 @@ export {
   OurPlatform,
   Testimonial,
   Benefits,
+  BenefitCard,
   PrivacyPart,
   OpenPositions,
   CallToAction,

@@ -86,5 +86,5 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 90vh;
+  /* min-height: 90vh; */
 }

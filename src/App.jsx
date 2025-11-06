@@ -14,15 +14,21 @@ import {
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <PlainText />
-      <OurPlatform />
-      <Testimonial />
+      <div className="max-w-[1600px] mx-auto">
+        <Navbar />
+        <Hero />
+        <PlainText />
+        <OurPlatform />
+        <Testimonial />
+      </div>
       <Benefits />
-      <PrivacyPart />
+      <div className="max-w-[1600px] mx-auto">
+        <PrivacyPart />
+      </div>
       <OpenPositions />
-      <CallToAction />
+      <div className="max-w-[1600px] mx-auto">
+        <CallToAction />
+      </div>
       <Footer />
     </>
   );
